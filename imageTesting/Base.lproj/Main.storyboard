@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="imageTesting" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TG0-V1-lhP">
+                                <rect key="frame" x="137" y="83" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="12g-eX-oOF"/>
+                                    <segue destination="Qam-aU-zRl" kind="show" identifier="btn1" id="MDI-O6-8Kd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p31-b3-aPp">
+                                <rect key="frame" x="137" y="167" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="93W-Wy-jA1"/>
+                                    <segue destination="Qam-aU-zRl" kind="show" identifier="btn2" id="6ou-LJ-ms5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J28-QI-3Ac">
+                                <rect key="frame" x="137" y="251" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PR5-dI-EXJ"/>
+                                    <segue destination="Qam-aU-zRl" kind="show" identifier="btn3" id="BrJ-wA-dNn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1Z-UA-VLb">
+                                <rect key="frame" x="137" y="333" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xns-db-6Ft"/>
+                                    <segue destination="Qam-aU-zRl" kind="show" identifier="btn4" id="Dtc-rW-gBy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LK-2R-6Uq">
+                                <rect key="frame" x="137" y="415" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uJG-EV-Oio"/>
+                                    <segue destination="Qam-aU-zRl" kind="show" identifier="btn5" id="QIj-Ll-GeW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HIx-RW-sqi"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1367" y="447"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="o1V-cC-JZe">
+            <objects>
+                <viewController storyboardIdentifier="goNext" id="Qam-aU-zRl" customClass="ImageViewController" customModule="imageTesting" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="50b-LP-vxO"/>
+                        <viewControllerLayoutGuide type="bottom" id="BlC-zB-0aB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7WC-Nl-Nrn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJ6-A0-gnc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BlC-zB-0aB" firstAttribute="top" secondItem="NJ6-A0-gnc" secondAttribute="bottom" id="14h-aE-4Kl"/>
+                            <constraint firstItem="NJ6-A0-gnc" firstAttribute="leading" secondItem="7WC-Nl-Nrn" secondAttribute="leading" id="5if-kh-Is0"/>
+                            <constraint firstItem="NJ6-A0-gnc" firstAttribute="top" secondItem="7WC-Nl-Nrn" secondAttribute="top" id="A3e-wV-Cum"/>
+                            <constraint firstAttribute="trailing" secondItem="NJ6-A0-gnc" secondAttribute="trailing" id="dsR-p2-LYr"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="imgView" destination="NJ6-A0-gnc" id="XIf-vX-nvy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r2K-VX-MdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="447"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="MDI-O6-8Kd"/>
+    </inferredMetricsTieBreakers>
+</document>
